@@ -4,3 +4,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import sklearn as sk
 
+data = pd.read_csv("steam_games_2026_adj.csv")
+print(data)
